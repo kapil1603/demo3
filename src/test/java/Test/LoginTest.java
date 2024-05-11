@@ -33,9 +33,7 @@ public class LoginTest extends BaseURL {
 		String ExpURL = Login.loginPage();
 		String ActURL = "https://www.saucedemo.com/inventory.html";
 		Assert.assertEquals(ExpURL, ActURL);
-		Reporter.log("Exp URL1"+ExpURL);
-		
-				
+		Reporter.log("Exp URL1"+ExpURL);		
 	}
 	
 	@AfterMethod
